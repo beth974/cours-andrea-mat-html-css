@@ -1,0 +1,50 @@
+/* ---------------------------------------------------------------------*/
+/* PARAMETRAGE GENERAL */
+/* ---------------------------------------------------------------------*/
+
+* {
+    margin: 0;      /* pas de marge */
+    padding: 0;     /* pas de padding */
+    box-sizing: border-box;      /* change le comportement du navigateurs pour rapport au calcul de la largeur et la                             hauteur des éléments /// Voir PDF */
+}
+
+
+html {
+    background: #fff;                               /* couleur de fond */
+    font-family:  'Lato','Arial', sans-serif;       /* police de caractère */
+    font-weight : 300;                              /* épaisseur de la police */
+    font-size: 20px;                                /* taille de la police */
+    color: #555;                                    /* couleur de la police */
+    text-rendering: optimizeLegibility;             /*  /// Voir PDF */
+}
+
+.row {                      /* structurer la rangé */
+    max-width: 1140px;      /* largeur de l'élément */
+    margin: 0 auto;         /* centrer l'élément */
+}
+
+
+
+
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(25, 127, 40, 0.7), rgba(49, 255, 81, 0.7)), url(img/formation.jpg); /* Ajout background et filtre */
+    height: 100vh;                          /* ajuste la hauteur et la largeur */                        
+    background-size: cover;                 /* ajuste votre background */ 
+    background-position: center;
+}
+
+.formation-text-box {
+    position: absolute;                      /* positionne l'élément suivant les coordonnées top et left /// Voir PDF */
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);         /* Elle permet d'effectuer une translation (un déplacement) de l'élément sur les axes X et Y. /// Voir PDF */
+}
+
+h1 {
+    margin: 0;
+}
